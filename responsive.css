@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 6vw 5vw;
+  }
+
+  .box {
+    display: block;
+    max-width: calc(90vw + 90vw);
+  }
+
+  .img_desktop {
+    display: none;
+  }
+
+  .img_mobile {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 2vw 2vw 0 0;
+  }
+
+  .right {
+    width: 90vw;
+    position: relative;
+    bottom: 28vh;
+    border-radius: 0 0 2vw 2vw;
+    height: 64vh;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .amount {
+    margin: 3vh 0;
+  }
+
+  .button {
+    width: 84vw;
+    height: 7vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img_mobile {
+    display: none;
+  }
+}
